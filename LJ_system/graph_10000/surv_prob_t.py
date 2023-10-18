@@ -48,7 +48,7 @@ for t in range(n_frame):
             ct += 1
     count[t] = ct
 
-sur_pro_t = count / init_number
+sur_pro_t = 1 - count / init_number
 
 plt.xlabel("Time $100*(0.2*(m*\sigma^2/\epsilon)^{1/2})$")
 plt.ylabel("Survivial Probability")
