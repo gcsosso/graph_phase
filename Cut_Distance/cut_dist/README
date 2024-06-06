@@ -1,0 +1,41 @@
+README
+
+The Python3 code only needs numpy and matplotlib
+
+1. glcutn.py
+
+Calculating the cut distance between two graphs
+
+
+2. test.py
+
+How to call the function of cut_distance(A,B) in test.py
+
+
+3. performance.py
+
+Doing the performance test and getting the average time (second) for calculating the cut distance between two Erdos-Renyi random graphs with n nodes. The result of total time is saved as time_results.npy, as well as the average time is saved as avg_results.npy.
+
+
+4. plotting.py
+
+Plotting the results got by running performance.py. The figure is saved as performance.png.
+
+
+5. ER_distance.py
+
+Calculating and plotting d(G(n,0), G(n,P)), where P \in [0,1] and n = 100. The figure is saved as dist.png.
+
+
+6. ER_heatmap.py
+
+Calculating and plotting the heatmap of d(G(n,P_1), G(n,P_2)), where P_1,P_2 \in [0,1] and n = 100. The heatmap is saved as heatmap.png.
+
+7. Performance.pdf
+
+Theoretical derivation and numerical results of cut distance on Erdos-Renyi graphs, as well as the complexity analysis of approximate algorithms for cut distance by taking Erdos-Renyi model as the test bed.
+
+8. ref directory
+
+The relevant books and papers.
+
